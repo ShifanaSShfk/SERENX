@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* 
+body{
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "Montserrat", sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: white;
+    color: black;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 98px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 75vh;
+    //
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myprogressbar{
+    width: 80vw;
+    text-align: center;
+}
+
+.icon {
+    font-size: 24px; 
+    color: white; 
+    margin-right: 10px; 
+} */
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif; /* Ensure Montserrat font is used */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include this for better box model handling */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: white;
+    color: black;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 98px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 72vh;
+    padding: 20px; /* Example padding */
+    background-color: black;
+    color: white;
+    font-family:"Roboto", sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('arr1.jpg');
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myprogressbar {
+    width: 80vw;
+    margin-top: 20px; /* Adjust space above the progress bar */
+}
+
+.songitemcontainer{
+    margin-top: 74px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; /* Adjust vertical position */
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 3rem; /* Adjust size of the play icon */
+    color: white; /* Example color */
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    /* width: 80%; */
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songitem img{
+    width: 72px;
+    margin: 0 23px;
+    cursor: pointer;
+}
+
+/* .timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+} */
+
+.songinfo{
+    position: absolute;
+    left: 0;
+}
