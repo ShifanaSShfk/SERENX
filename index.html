@@ -8,14 +8,6 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
-<!-- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serenx</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-9yzdgg6OFz2gDBWDM5K1G09ZJ6hR/LjW5NEbkeCgy8PKLsYH8ZiUu2THMdS6sCjYHtk5eZf4aVcnYtRsvAucnQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-</head> -->
-
 <body>
     
     <nav>
@@ -64,6 +56,9 @@
     </div>
 
     <div class="bottom">
+
+        <div class="songinfo" id="currentsong"></div>
+
         <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100"> 
         <div class="icons">
             <!-- fontawesome icons
@@ -78,18 +73,14 @@
             <span class="icon" id="masterplay">&#9658;</span> 
             <span class="icon">&#9197;</span>  -->
 
-            <i class="material-icons icon">fast_rewind</i>
+            <i class="material-icons icon" id="previous">fast_rewind</i>
             <i class="material-icons icon" id="masterplay">play_arrow</i>
-            <i class="material-icons icon">fast_forward</i >
+            <i class="material-icons icon" id="next">fast_forward</i >
         </div>     
-        <div class="songinfo">
-            <div class="currentsong"></div>
-            <!-- <img src="playing.gif" alt="" width="42px" id="gif"> -->
-        </div>        
+        <!-- <div class="songinfo">
+            <img src="playing.gif" alt="" width="42px" id="gif">
+        </div>         -->
     </div>
-
-    
-    <!-- <script src="https://kit.fontawesome.com/0df91d82d4.js" crossorigin="anonymous"></script> -->
     <script src="script.js"></script>
 </body>
 </html>

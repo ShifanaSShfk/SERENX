@@ -1,69 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-/* 
-body{
-    background-color: white;
-}
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-nav{
-    font-family: "Montserrat", sans-serif;
-}
-
-nav ul{
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    height: 65px;
-    background-color: white;
-    color: black;
-}
-
-nav ul li{
-    padding: 0 12px;
-}
-
-.brand img{
-    width: 98px;
-    padding: 0 8px;
-}
-
-.brand{
-    display: flex;
-    align-items: center;
-    font-weight: bolder;
-    font-size: 1.3rem;
-}
-
-.container{
-    min-height: 75vh;
-    //
-}
-.bottom{
-    position: sticky;
-    height: 130px;
-    background-color: black;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#myprogressbar{
-    width: 80vw;
-    text-align: center;
-}
-
-.icon {
-    font-size: 24px; 
-    color: white; 
-    margin-right: 10px; 
-} */
 body {
     background-image: url('background/playing.gif');
     background-size: cover; /* Adjusts the GIF to cover the entire background */
@@ -132,7 +69,7 @@ nav ul li {
 
 #myprogressbar {
     width: 80vw;
-    margin-top: 20px; /* Adjust space above the progress bar */
+    margin-top: 2px; /* Adjust space above the progress bar */
     cursor: pointer;
 }
 
@@ -196,7 +133,19 @@ nav ul li {
     margin: 0 23px;
 } */
 
-.currentsong{
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+.songinfo {
+    position: absolute;
+    top: 14px;  
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: center;
+    transition: opacity 1s ease-in;
+}
+
+@media only screen and (max-width: 1100px){
+    body{
+        background-color: black;
+    }
 }
