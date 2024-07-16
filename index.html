@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serenx</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <!-- <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,9 +17,10 @@
 </head> -->
 
 <body>
+    
     <nav>
         <ul>
-            <li class="brand"><img src="logo_black.png" alt="Serenx">Serenx</li>
+            <li class="brand"><img src="logos/logo_black.png" alt="Serenx">Serenx</li>
             <li>Home</li>
             <li>About</li>
         </ul>
@@ -29,8 +32,8 @@
             <div class="songitemcontainer">
                 
                 <div class="songitem">
-                    <img src="roja.jpg" alt="" class="">
-                    <span>Roja</span>
+                    <img alt="1">
+                    <span class="songname"></span>
                     <span class="songlistplay">
                         <!-- <span class="timestamp">05:34 -->
                         <!-- <iclass="icon">&#9658;</i>
@@ -39,66 +42,32 @@
                 </div>
 
                 <div class="songitem">
-                    <img src="roja.jpg" alt="" class="">
-                    <span>Roja</span>
+                    <img alt="1">
+                    <span class="songname"></span>
                     <span class="songlistplay">
                         <!-- <span class="timestamp">05:34 -->
                         <!-- <iclass="icon">&#9658;</i>
                         </span> -->
                     </span>
                 </div>
+
                 <div class="songitem">
-                    <img src="roja.jpg" alt="" class="">
-                    <span>Roja</span>
+                    <img alt="1">
+                    <span class="songname"></span>
                     <span class="songlistplay">
                         <!-- <span class="timestamp">05:34 -->
                         <!-- <iclass="icon">&#9658;</i>
                         </span> -->
                     </span>
                 </div>
-                <div class="songitem">
-                    <img src="roja.jpg" alt="" class="">
-                    <span>Roja</span>
-                    <span class="songlistplay">
-                        <!-- <span class="timestamp">05:34
-                        <iclass="icon">&#9658;</i>
-                        </span> -->
-                    </span>
-                </div>
-                <div class="songitem">
-                    <img src="roja.jpg" alt="" class="">
-                    <span>Roja</span>
-                    <span class="songlistplay">
-                        <!-- <span class="timestamp">05:34 -->
-                        <!-- <iclass="icon">&#9658;</i>
-                        </span> -->
-                    </span>
-                </div>
-                <div class="songitem">
-                    <img src="roja.jpg" alt="" class="">
-                    <span>Roja</span>
-                    <span class="songlistplay">
-                        <!-- <span class="timestamp">05:34 -->
-                        <!-- <iclass="icon">&#9658;</i>
-                        </span> -->
-                    </span>
-                </div>
-                <div class="songitem">
-                    <img src="roja.jpg" alt="" class="">
-                    <span>Roja</span>
-                    <span class="songlistplay">
-                        <!-- <span class="timestamp">05:34 -->
-                        <!-- <iclass="icon">&#9658;</i>
-                        </span> -->
-                    </span>
-                </div>
+
             </div>
         </div>
         <div class="songbanner"></div>
     </div>
 
     <div class="bottom">
-        <input type="range" name="range" id="myprogressbar" min="0" max="100"> 
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100"> 
         <div class="icons">
             <!-- fontawesome icons
             <i class="far fa-3x fa-step-backward"></i>
@@ -106,18 +75,24 @@
             <i class="far fa-3x fa-step-forward"></i> -->
             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z"/>
-            </svg>             -->
-            <span class="icon">&#9194;</span> <!-- Fast Backward Icon -->
-            <span class="icon">&#9658;</span> <!-- Play Icon -->
-            <span class="icon">&#9197;</span> <!-- Fast Forward Icon -->
-        </div>
+            </svg>-->
+
+            <!-- <span class="icon">&#9194;</span> 
+            <span class="icon" id="masterplay">&#9658;</span> 
+            <span class="icon">&#9197;</span>  -->
+
+            <i class="material-icons icon">fast_rewind</i>
+            <i class="material-icons icon" id="masterplay">play_arrow</i>
+            <i class="material-icons icon">fast_forward</i >
+        </div>     
         <div class="songinfo">
-            <img src="playing.gif" alt="" width="42px">Roja
+            
+            <!-- <img src="playing.gif" alt="" width="42px" id="gif"> -->
         </div>        
     </div>
 
     
     <!-- <script src="https://kit.fontawesome.com/0df91d82d4.js" crossorigin="anonymous"></script> -->
-    <script src=""script.js></script>
+    <script src="script.js"></script>
 </body>
 </html>

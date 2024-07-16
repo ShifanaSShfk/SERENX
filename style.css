@@ -65,6 +65,10 @@ nav ul li{
     margin-right: 10px; 
 } */
 body {
+    background-image: url('background/playing.gif');
+    background-size: cover; /* Adjusts the GIF to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the GIF from repeating */
+    background-position: center; /* Centers the GIF */
     background-color: white;
     font-family: 'Montserrat', sans-serif; /* Ensure Montserrat font is used */
 }
@@ -111,11 +115,11 @@ nav ul li {
     margin: 23px auto;
     border-radius: 12px;
     padding: 34px;
-    background-image: url('arr1.jpg');
+    background-image: url('background/arr1.jpg');
 }
 
 .bottom {
-    position: sticky;
+    position: relative;
     height: 130px;
     background-color: black;
     bottom: 0;
@@ -123,11 +127,13 @@ nav ul li {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* padding-top: 20px; */
 }
 
 #myprogressbar {
     width: 80vw;
     margin-top: 20px; /* Adjust space above the progress bar */
+    cursor: pointer;
 }
 
 .songitemcontainer{
@@ -139,16 +145,15 @@ nav ul li {
     align-items: center;
     justify-content: center;
     margin-top: 10px; /* Adjust vertical position */
-}
-
-.icons i{
     cursor: pointer;
 }
 
 .icon {
-    font-size: 3rem; /* Adjust size of the play icon */
-    color: white; /* Example color */
+    font-size: 3rem;
+    color: white;
+    margin: 0 10px;
 }
+
 
 .songitem{
     height: 50px;
@@ -173,5 +178,20 @@ nav ul li {
 
 .songinfo{
     position: absolute;
-    left: 0;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    /* margin-bottom: 11vw; */
+    /* margin: -10px 88px; */
+    /* top: 3vw; */
+    text-align: center;
+    transition: opacity 1s ease-in;
 }
+
+/* .songinfo img{
+    opacity: 1;
+    transition: opacity 1s ease-in;
+    margin: 0 23px;
+} */
