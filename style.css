@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap');
 body {
     background-image: url('background/playing.gif');
     background-size: cover; /* Adjusts the GIF to cover the entire background */
@@ -133,19 +133,35 @@ nav ul li {
     margin: 0 23px;
 } */
 
-.songinfo {
-    position: absolute;
-    top: 14px;  
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: "Montserrat", sans-serif;
-    color: white;
-    text-align: center;
-    transition: opacity 1s ease-in;
-}
-
 @media only screen and (max-width: 1100px){
     body{
         background-color: black;
     }
+}
+
+/* --------------- ABOUT------------------ */
+.about-container {
+    min-height: 72vh;
+    padding: 20px; /* Example padding */
+    background-color: white; /* Change background to white */
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    text-align: center; /* Center align text */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black; /* Change font color to black */
+}
+
+.about-container h1 {
+    margin-bottom: 20px; /* Add space below the heading */
+    
+}
+
+.about-container p {
+    margin-bottom: 15px; /* Add space between paragraphs */
 }

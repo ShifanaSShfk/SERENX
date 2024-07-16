@@ -9,8 +9,8 @@ let currentsong = document.getElementById('currentsong');
 let songitems = Array.from(document.getElementsByClassName('songitem'));
 let next = document.getElementById('next');
 let previous = document.getElementById('previous');
-let songWindow = null;
 
+// let songWindow = null;
 // let gif = document.getElementById('gif');
 
 
