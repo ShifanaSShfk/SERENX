@@ -195,3 +195,8 @@ nav ul li {
     transition: opacity 1s ease-in;
     margin: 0 23px;
 } */
+
+.currentsong{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
