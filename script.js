@@ -18,6 +18,7 @@ let songs = [
     {songname: "Puthu Vellai Mazhai", filepath: "songs/Puthu Vellay.mp3", coverpath: "covers/roja.jpg"},
     {songname: "Jiya Jale", filepath: "songs/Jiya Jale.mp3", coverpath: "covers/dilse.jpg"},
     {songname: "Jai Ho", filepath: "songs/Jai Ho.mp3", coverpath: "covers/slumdogmillionare.jpg"},
+    {songname: "Chor Justh", filepath: "songs/Chor Justh.mp3", coverpath: "covers/Chor Justh.jpg"},
 ];
 
 songitems.forEach((element, i)=>{
